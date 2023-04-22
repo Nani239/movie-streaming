@@ -1,0 +1,13 @@
+.movie{
+    max-height:200px;
+    max-width:200px;
+    object-fit: contain;
+}
+.movie:hover{
+    transform:scale(1.01);
+}
+
+.movie img{
+    height:200px;
+    width:200px;
+}

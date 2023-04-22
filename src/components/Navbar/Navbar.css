@@ -1,0 +1,32 @@
+.navbar{
+    height: 80px;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 8px 18px -6px rgba(0,0,0,0.73);
+    background-color: lightgray;
+}
+
+.navbar__logo span{
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar__search {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+.navbar__search input{
+    background-color: transparent;
+    width:300px;
+    height:12px;
+    border:2px solid rgb(15, 15, 15);
+    border-left:0px;
+    outline: none;
+    padding:10px;
+    font-size: 16px;
+}
